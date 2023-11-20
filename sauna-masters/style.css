@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: all-round-gothic; 
+    font-style: normal;
+    font-weight: 500;
+        
+}
+
+.footer-containerA {
+    background-color: #FFFAEB;
+    display: flex;
+    flex-direction: row;
+    padding: 20% 0;
+  
+   
+}
+
+.text-containerA {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5%;
+    border-right: 1px solid black;
+}
+
+.contact-info {
+    width: 50%;
+    padding: 5%;
+}
+
+.footer-containerA h2 {
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+.footer-containerA p {
+    padding-bottom: 17px;
+}
