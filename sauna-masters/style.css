@@ -9,6 +9,16 @@
         
 }
 
+.next-to-carousel-banners {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.next-to-carousel-banners a {
+    border-bottom: 2px solid black ;
+}
+
 /* Welcome to Sauna MAsters */
 .welcome-containerA {
     background-color: rgb(234, 167, 87);
@@ -46,6 +56,44 @@
 
 /* Welcome to Sauna Masters end */
 
+
+/* Get to know us  */
+
+.get-to-know-container {
+    background-color: brown;
+}
+
+.get-to-know-img-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+
+.get-to-know-img-container img {
+    border-radius: 50%;
+    padding: 0 15px;
+    width: 150px;
+    height: auto;
+    
+}
+
+.get-to-know-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px 15px;
+   
+}
+
+.get-to-know-names p {
+    padding: 5px 15px;
+}
+
+.get-to-know-positions {
+    display: flex;
+    justify-content: space-between;
+}
 /* Footer */
 .footer-containerA {
     background-color: #FFFAEB;
