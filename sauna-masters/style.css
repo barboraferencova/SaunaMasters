@@ -59,41 +59,45 @@
 
 /* Get to know us  */
 
-.get-to-know-container {
+.get2 {
     background-color: brown;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-evenly;
 }
-
-.get-to-know-img-container {
+.getContainer {
     display: flex;
     flex-direction: row;
     padding-top: 50px;
     justify-content: space-evenly;
-}
-
-.get-to-know-img-container img {
-    border-radius: 50%;
-    padding: 0 15px;
-    width: 150px;
-    height: auto;
+    text-align: center;
     
 }
 
-.get-to-know-names {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 5px 15px;
-   
+.get2h2{
+    text-align: center;
+    font-weight: 600 ;
+    font-size: 32px;
 }
 
-.get-to-know-names p {
-    padding: 5px 15px;
+.getContainer p {
+    padding-top: 4px;
 }
 
-.get-to-know-positions {
-    display: flex;
-    justify-content: space-between;
+.getContainer p:first-of-type {
+    font-weight: 600;
+    padding-top: 15px;
 }
+
+.get2 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Get to know us end */
+
 /* Footer */
 .footer-containerA {
     background-color: #FFFAEB;
