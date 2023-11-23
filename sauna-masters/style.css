@@ -58,7 +58,7 @@
 
 
 /* Get to know us  */
-
+@media only screen and (min-width: 720px) {
 .get2 {
     background-color: brown;
     padding-top: 100px;
@@ -95,6 +95,71 @@
     height: 150px;
     object-fit: cover;
 }
+}
+
+@media only screen and (max-width: 720px) {
+    .get2 {
+        background-color: brown;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        justify-content: space-evenly;
+    }
+    .getContainer {
+        display: flex;
+        flex-direction: row;
+        padding-top: 50px;
+        justify-content: space-evenly;
+        text-align: center;
+        
+    }
+    
+    .get2h2{
+        text-align: center;
+        font-weight: 600 ;
+        font-size: 32px;
+    }
+    
+    .getContainer p {
+        padding-top: 4px;
+    }
+    
+    .getContainer p:first-of-type {
+        font-weight: 600;
+        padding-top: 15px;
+    }
+    
+    .get2 img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .getContainer {
+        display: flex;
+        flex-wrap: wrap;
+        /* ňew */
+    }
+
+    .getMark, .getPatrik, .getMarek, .getJarda {
+        padding: 0 7px;
+        /* new */
+    }
+}
+
+@media only screen and (max-width: 687px) {
+    .getMark, .getPatrik, .getMarek, .getJarda {
+        padding-top: 25px;
+    }
+ }
+
+ @media only screen and (max-width: 359px) {
+    .getMarek {
+        /* display: flex; ????? */
+      flex-wrap: wrap;
+    }
+ }
+
 
 /* Get to know us end */
 
