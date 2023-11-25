@@ -153,12 +153,7 @@
     }
  }
 
- @media only screen and (max-width: 359px) {
-    .getMarek {
-        /* display: flex; ????? */
-      flex-wrap: wrap;
-    }
- }
+
 
 
 /* Get to know us end */
